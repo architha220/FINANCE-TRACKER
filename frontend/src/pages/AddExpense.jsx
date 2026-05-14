@@ -29,7 +29,7 @@ function AddExpense() {
 
     try {
       await axios.post(
-        "http://127.0.0.1:8000/add-transaction",
+        "https://finance-tracker-vdej.onrender.com/add-transaction",
         {
           title,
           amount: Number(amount),

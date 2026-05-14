@@ -25,7 +25,7 @@ function Dashboard() {
   const fetchTransactions = async () => {
     try {
       const response = await axios.get(
-        `http://127.0.0.1:8000/transactions/${localStorage.getItem(
+        `https://finance-tracker-vdej.onrender.com/transactions/${localStorage.getItem(
           "user_id"
         )}`
       );
